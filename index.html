@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-warning">
+
+    <div  style="display: flex; justify-content: center;">
+        <div class="bg-dark container w-20 mt-5 row ">
+            <input id="Result" style="width: 100%; margin-bottom: 20px; height: 80px;" type="text" placeholder="0">
+            
+            <button  onclick="displaydata(0)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2  " type="submit">0</button>
+
+            <button onclick="displaydata(1)" class="me-5 mb-5 btn-lg btn btn-outline-light  col-lg-3 col-md-2 col-sm-2" type="submit">1</button>
+
+            <button onclick="displaydata(2)" class="me-5 mb-5 btn-lg btn btn-outline-light  col-lg-3 col-md-2 col-sm-2" type="submit">2</button><br>
+
+            <button onclick="displaydata(3)" class=" ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2 c" type="submit">3</button>
+
+            <button onclick="displaydata(4)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">4</button>
+
+            <button onclick="displaydata(5)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">5</button><br>
+
+            <button onclick="displaydata(6)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">6</button>
+
+            <button onclick="displaydata(7)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">7</button>
+
+            <button onclick="displaydata(8)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">8</button><br>
+
+            <button onclick="displaydata(9)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">9</button>
+
+            <button onclick="displaydata('+')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">+</button>
+
+            <button onclick="displaydata('-')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">-</button><br>
+
+            <button onclick="displaydata('*')" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">*</button>
+
+            <button onclick="displaydata('/')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">/</button>
+
+            <button onclick="evalexpression()" class="me-5 mb-5 btn-lg btn btn-outline-success col-lg-3 col-md-2 col-sm-2" type="submit">=</button><br>
+
+            <button onclick="allclear()" class=" ms-5 me-5 mb-5 btn-lg btn btn-outline-danger col-lg-3 col-md-2 col-sm-2" type="submit">ac</button>
+
+            <button onclick="backspace()" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">x</button>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+<script src="./calculator.js"></script>
+
+</html>
