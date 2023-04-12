@@ -16,43 +16,70 @@
 
 <body class="bg-warning">
 
-    <div  style="display: flex; justify-content: center;">
-        <div class="bg-dark container w-20 mt-5 row ">
+    <div style="display: flex; justify-content: space-around;">
+        <div class="bg-dark container w-75 mt-5 row ">
+            <h1 class="text-white">calculator  </h1>
             <input id="Result" style="width: 100%; margin-bottom: 20px; height: 80px;" type="text" placeholder="0">
-            
-            <button  onclick="displaydata(0)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2  " type="submit">0</button>
 
-            <button onclick="displaydata(1)" class="me-5 mb-5 btn-lg btn btn-outline-light  col-lg-3 col-md-2 col-sm-2" type="submit">1</button>
+            <button onclick="displaydata(0)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light   col-lg-3 col-md-2 col-sm-2 col-2 "
+                type="submit">0</button>
 
-            <button onclick="displaydata(2)" class="me-5 mb-5 btn-lg btn btn-outline-light  col-lg-3 col-md-2 col-sm-2" type="submit">2</button><br>
+            <button onclick="displaydata(1)"
+                class=" ms-2 me-5 mb-5 btn btn-outline-light  col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">1</button>
 
-            <button onclick="displaydata(3)" class=" ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2 c" type="submit">3</button>
+            <button onclick="displaydata(2)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light  col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">2</button>
 
-            <button onclick="displaydata(4)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">4</button>
+            <button onclick="displaydata(3)"
+                class="ms-2  me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2 "
+                type="submit">3</button>
 
-            <button onclick="displaydata(5)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">5</button><br>
+            <button onclick="displaydata(4)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">4</button>
 
-            <button onclick="displaydata(6)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">6</button>
+            <button onclick="displaydata(5)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">5</button>
 
-            <button onclick="displaydata(7)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">7</button>
+            <button onclick="displaydata(6)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">6</button>
 
-            <button onclick="displaydata(8)" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">8</button><br>
+            <button onclick="displaydata(7)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">7</button>
 
-            <button onclick="displaydata(9)" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">9</button>
+            <button onclick="displaydata(8)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">8</button>
 
-            <button onclick="displaydata('+')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">+</button>
+            <button onclick="displaydata(9)"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">9</button>
 
-            <button onclick="displaydata('-')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">-</button><br>
+            <button onclick="displaydata('+')"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">+</button>
 
-            <button onclick="displaydata('*')" class="ms-5 me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">*</button>
+            <button onclick="displaydata('-')"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">-</button>
 
-            <button onclick="displaydata('/')" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">/</button>
+            <button onclick="displaydata('*')"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">*</button>
 
-            <button onclick="evalexpression()" class="me-5 mb-5 btn-lg btn btn-outline-success col-lg-3 col-md-2 col-sm-2" type="submit">=</button><br>
+            <button onclick="displaydata('/')"
+                class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-2" type="submit">/</button>
 
-            <button onclick="allclear()" class=" ms-5 me-5 mb-5 btn-lg btn btn-outline-danger col-lg-3 col-md-2 col-sm-2" type="submit">ac</button>
+            <button onclick="evalexpression()"
+                class="ms-2 me-5 mb-5  btn btn-outline-success col-lg-3 col-md-2 col-sm-2 col-2"
+                type="submit">=</button>
 
-            <button onclick="backspace()" class="me-5 mb-5 btn-lg btn btn-outline-light col-lg-3 col-md-2 col-sm-2" type="submit">x</button>
+            <button onclick="allclear()"
+                class=" ms-2 me-5 mb-5  btn btn-outline-danger col-lg-3 col-md-2 col-sm-2 col-4"
+                type="submit">ac</button>
+
+            <button onclick="backspace()" class="ms-2 me-5 mb-5  btn btn-outline-light col-lg-3 col-md-2 col-sm-2 col-4"
+                type="submit">x</button>
 
 
 
